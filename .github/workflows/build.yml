@@ -1,4 +1,4 @@
-name: Build
+name: Build & Release
 
 on:
   workflow_dispatch:
@@ -56,11 +56,11 @@ jobs:
 
             ---
             Commit: ${{ github.sha }}
-          files:
-            - ./build/watermark-linux-amd64
-            - ./build/watermark-linux-arm64
-            - ./build/watermark-darwin-amd64
-            - ./build/watermark-darwin-arm64
+          files: |
+            ./build/watermark-linux-amd64
+            ./build/watermark-linux-arm64
+            ./build/watermark-darwin-amd64
+            ./build/watermark-darwin-arm64
           draft: false
           prerelease: false
           make_latest: true
