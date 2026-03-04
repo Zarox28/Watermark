@@ -66,6 +66,8 @@ Watermark is an interactive command-line tool that simplifies the addition of wa
 
 This project is licensed under the AGPLv3 License - see the [LICENSE](LICENSE) file for details.
 
+---
+
 <div align="center">
   Made with ❤️ by <a href="https://github.com/Zarox28">Zarox28</a>
 </div>
