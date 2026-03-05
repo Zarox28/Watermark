@@ -10,7 +10,7 @@
 
 - [About](#about)
 - [Installation](#installation)
-  - [Prerequisites](#prerequisites)
+  - [Homebrew](#homebrew)
   - [Build from Source](#build-from-source)
 - [Usage](#usage)
   - [Command Line Options](#command-line-options)
@@ -22,9 +22,11 @@ Watermark is an interactive command-line tool that simplifies the addition of wa
 
 ## Installation
 
-### Prerequisites
+### Homebrew
 
-- Go 1.25.0 or higher
+```bash
+brew install zarox28/tap/watermark
+```
 
 ### Build from Source
 
